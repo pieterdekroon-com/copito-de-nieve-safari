@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="popup.css" />
+  </head>
+  <body>
+    <header class="header">
+      <h1 class="title">Copito de Nieve</h1>
+    </header>
+
+    <div class="row">
+      <span class="row__label">Active</span>
+      <label class="toggle">
+        <input type="checkbox" id="enabled" />
+        <span class="toggle__track"><span class="toggle__thumb"></span></span>
+      </label>
+    </div>
+
+    <div class="row">
+      <span class="row__label">Shortcut</span>
+      <span class="shortcut" id="shortcut"></span>
+    </div>
+
+    <button id="test" class="button" type="button">Test</button>
+
+    <script src="popup.js"></script>
+  </body>
+</html>

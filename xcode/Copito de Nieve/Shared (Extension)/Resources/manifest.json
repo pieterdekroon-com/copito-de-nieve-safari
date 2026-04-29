@@ -1,0 +1,38 @@
+{
+  "manifest_version": 3,
+  "name": "Copito de Nieve",
+  "version": "1.0",
+  "description": "In memory of Copito de Nieve (1966–2003), the only albino gorilla ever. He still drops by now and then.",
+  "icons": {
+    "128": "icon.png"
+  },
+  "action": {
+    "default_title": "Copito de Nieve",
+    "default_popup": "popup.html",
+    "default_icon": {
+      "128": "icon.png"
+    }
+  },
+  "permissions": ["storage"],
+  "host_permissions": ["http://*/*", "https://*/*"],
+  "content_scripts": [
+    {
+      "matches": ["http://*/*", "https://*/*"],
+      "js": ["content.js"],
+      "css": ["content.css"],
+      "run_at": "document_idle"
+    }
+  ],
+  "web_accessible_resources": [
+    {
+      "resources": [
+        "assets/gorilla1.png",
+        "assets/gorilla2.png",
+        "assets/gorilla3.png",
+        "assets/gorilla4.png",
+        "assets/gorilla5.png"
+      ],
+      "matches": ["http://*/*", "https://*/*"]
+    }
+  ]
+}

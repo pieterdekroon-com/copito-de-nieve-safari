@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Privacy Accessed API Types (NSPrivacyAccessedAPITypes)</key>
+	<array/>
+	<key>Privacy Collected Data Types (NSPrivacyCollectedDataTypes)</key>
+	<array/>
+	<key>Privacy Tracking Domains (NSPrivacyTrackingDomains)</key>
+	<array/>
+	<key>Privacy Tracking Enabled (NSPrivacyTracking)</key>
+	<false/>
+</dict>
+</plist>

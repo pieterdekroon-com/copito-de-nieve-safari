@@ -1,0 +1,1043 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D234F57C2FA241C800940FEE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D234F57B2FA241C800940FEE /* AppDelegate.swift */; };
+		D234F57E2FA241C800940FEE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D234F57D2FA241C800940FEE /* SceneDelegate.swift */; };
+		D234F5812FA241C800940FEE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D234F57F2FA241C800940FEE /* LaunchScreen.storyboard */; };
+		D234F5842FA241C800940FEE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D234F5822FA241C800940FEE /* Main.storyboard */; };
+		D234F58D2FA241C800940FEE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D234F58C2FA241C800940FEE /* AppDelegate.swift */; };
+		D234F5902FA241C800940FEE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D234F58E2FA241C800940FEE /* Main.storyboard */; };
+		D234F5972FA241C800940FEE /* Copito de Nieve Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = D234F5962FA241C800940FEE /* Copito de Nieve Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		D234F5A12FA241C800940FEE /* Copito de Nieve Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = D234F5A02FA241C800940FEE /* Copito de Nieve Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		D234F5A62FA241C800940FEE /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = D234F56B2FA241C700940FEE /* Main.html */; };
+		D234F5A72FA241C800940FEE /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = D234F56B2FA241C700940FEE /* Main.html */; };
+		D234F5A82FA241C800940FEE /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = D234F56D2FA241C700940FEE /* Icon.png */; };
+		D234F5A92FA241C800940FEE /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = D234F56D2FA241C700940FEE /* Icon.png */; };
+		D234F5AA2FA241C800940FEE /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = D234F56E2FA241C700940FEE /* Style.css */; };
+		D234F5AB2FA241C800940FEE /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = D234F56E2FA241C700940FEE /* Style.css */; };
+		D234F5AC2FA241C800940FEE /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = D234F56F2FA241C700940FEE /* Script.js */; };
+		D234F5AD2FA241C800940FEE /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = D234F56F2FA241C700940FEE /* Script.js */; };
+		D234F5AE2FA241C800940FEE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D234F5702FA241C700940FEE /* ViewController.swift */; };
+		D234F5AF2FA241C800940FEE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D234F5702FA241C700940FEE /* ViewController.swift */; };
+		D234F5B02FA241C800940FEE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D234F5712FA241C800940FEE /* Assets.xcassets */; };
+		D234F5B12FA241C800940FEE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D234F5712FA241C800940FEE /* Assets.xcassets */; };
+		D234F5B22FA241C800940FEE /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = D234F5732FA241C800940FEE /* SafariWebExtensionHandler.swift */; };
+		D234F5B32FA241C800940FEE /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = D234F5732FA241C800940FEE /* SafariWebExtensionHandler.swift */; };
+		D234F5CF2FA241C900940FEE /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = D234F5C52FA241C900940FEE /* icon.png */; };
+		D234F5D02FA241C900940FEE /* popup.js in Resources */ = {isa = PBXBuildFile; fileRef = D234F5C62FA241C900940FEE /* popup.js */; };
+		D234F5D12FA241C900940FEE /* content.css in Resources */ = {isa = PBXBuildFile; fileRef = D234F5C72FA241C900940FEE /* content.css */; };
+		D234F5D22FA241C900940FEE /* popup.html in Resources */ = {isa = PBXBuildFile; fileRef = D234F5C82FA241C900940FEE /* popup.html */; };
+		D234F5D52FA241C900940FEE /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = D234F5CB2FA241C900940FEE /* manifest.json */; };
+		D234F5D62FA241C900940FEE /* popup.css in Resources */ = {isa = PBXBuildFile; fileRef = D234F5CC2FA241C900940FEE /* popup.css */; };
+		D234F5D72FA241C900940FEE /* content.js in Resources */ = {isa = PBXBuildFile; fileRef = D234F5CD2FA241C900940FEE /* content.js */; };
+		D234F5D82FA241C900940FEE /* assets in Resources */ = {isa = PBXBuildFile; fileRef = D234F5CE2FA241C900940FEE /* assets */; };
+		D234F5D92FA241C900940FEE /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = D234F5C52FA241C900940FEE /* icon.png */; };
+		D234F5DA2FA241C900940FEE /* popup.js in Resources */ = {isa = PBXBuildFile; fileRef = D234F5C62FA241C900940FEE /* popup.js */; };
+		D234F5DB2FA241C900940FEE /* content.css in Resources */ = {isa = PBXBuildFile; fileRef = D234F5C72FA241C900940FEE /* content.css */; };
+		D234F5DC2FA241C900940FEE /* popup.html in Resources */ = {isa = PBXBuildFile; fileRef = D234F5C82FA241C900940FEE /* popup.html */; };
+		D234F5DF2FA241C900940FEE /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = D234F5CB2FA241C900940FEE /* manifest.json */; };
+		D234F5E02FA241C900940FEE /* popup.css in Resources */ = {isa = PBXBuildFile; fileRef = D234F5CC2FA241C900940FEE /* popup.css */; };
+		D234F5E12FA241C900940FEE /* content.js in Resources */ = {isa = PBXBuildFile; fileRef = D234F5CD2FA241C900940FEE /* content.js */; };
+		D234F5E22FA241C900940FEE /* assets in Resources */ = {isa = PBXBuildFile; fileRef = D234F5CE2FA241C900940FEE /* assets */; };
+		D2B440532FA24CB400293611 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = D2B440522FA24CB400293611 /* PrivacyInfo.xcprivacy */; };
+		D2B440542FA24CB400293611 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = D2B440522FA24CB400293611 /* PrivacyInfo.xcprivacy */; };
+		D2B440552FA24CB400293611 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = D2B440522FA24CB400293611 /* PrivacyInfo.xcprivacy */; };
+		D2B440562FA24CB400293611 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = D2B440522FA24CB400293611 /* PrivacyInfo.xcprivacy */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D234F5982FA241C800940FEE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D234F5652FA241C600940FEE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D234F5952FA241C800940FEE;
+			remoteInfo = "Copito de Nieve Extension (iOS)";
+		};
+		D234F5A22FA241C800940FEE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D234F5652FA241C600940FEE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D234F59F2FA241C800940FEE;
+			remoteInfo = "Copito de Nieve Extension (macOS)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		D234F5B92FA241C800940FEE /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				D234F5972FA241C800940FEE /* Copito de Nieve Extension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D234F5C02FA241C800940FEE /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				D234F5A12FA241C800940FEE /* Copito de Nieve Extension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		D234F56C2FA241C700940FEE /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = Base; path = Base.lproj/Main.html; sourceTree = "<group>"; };
+		D234F56D2FA241C700940FEE /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		D234F56E2FA241C700940FEE /* Style.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = Style.css; sourceTree = "<group>"; };
+		D234F56F2FA241C700940FEE /* Script.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = Script.js; sourceTree = "<group>"; };
+		D234F5702FA241C700940FEE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D234F5712FA241C800940FEE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D234F5732FA241C800940FEE /* SafariWebExtensionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariWebExtensionHandler.swift; sourceTree = "<group>"; };
+		D234F5782FA241C800940FEE /* Copito de Nieve.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Copito de Nieve.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D234F57B2FA241C800940FEE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D234F57D2FA241C800940FEE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		D234F5802FA241C800940FEE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D234F5832FA241C800940FEE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D234F5852FA241C800940FEE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D234F58A2FA241C800940FEE /* Copito de Nieve.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Copito de Nieve.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D234F58C2FA241C800940FEE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D234F58F2FA241C800940FEE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D234F5912FA241C800940FEE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D234F5962FA241C800940FEE /* Copito de Nieve Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Copito de Nieve Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D234F59B2FA241C800940FEE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D234F5A02FA241C800940FEE /* Copito de Nieve Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Copito de Nieve Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D234F5A52FA241C800940FEE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D234F5C52FA241C900940FEE /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon.png; path = Resources/icon.png; sourceTree = "<group>"; };
+		D234F5C62FA241C900940FEE /* popup.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = popup.js; path = Resources/popup.js; sourceTree = "<group>"; };
+		D234F5C72FA241C900940FEE /* content.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; name = content.css; path = Resources/content.css; sourceTree = "<group>"; };
+		D234F5C82FA241C900940FEE /* popup.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = popup.html; path = Resources/popup.html; sourceTree = "<group>"; };
+		D234F5CB2FA241C900940FEE /* manifest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = manifest.json; path = Resources/manifest.json; sourceTree = "<group>"; };
+		D234F5CC2FA241C900940FEE /* popup.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; name = popup.css; path = Resources/popup.css; sourceTree = "<group>"; };
+		D234F5CD2FA241C900940FEE /* content.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = content.js; path = Resources/content.js; sourceTree = "<group>"; };
+		D234F5CE2FA241C900940FEE /* assets */ = {isa = PBXFileReference; lastKnownFileType = folder; name = assets; path = Resources/assets; sourceTree = "<group>"; };
+		D2B440522FA24CB400293611 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D234F5752FA241C800940FEE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D234F5872FA241C800940FEE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D234F5932FA241C800940FEE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D234F59D2FA241C800940FEE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D234F5642FA241C600940FEE = {
+			isa = PBXGroup;
+			children = (
+				D2B440522FA24CB400293611 /* PrivacyInfo.xcprivacy */,
+				D234F5692FA241C700940FEE /* Shared (App) */,
+				D234F5722FA241C800940FEE /* Shared (Extension) */,
+				D234F57A2FA241C800940FEE /* iOS (App) */,
+				D234F58B2FA241C800940FEE /* macOS (App) */,
+				D234F59A2FA241C800940FEE /* iOS (Extension) */,
+				D234F5A42FA241C800940FEE /* macOS (Extension) */,
+				D234F5792FA241C800940FEE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D234F5692FA241C700940FEE /* Shared (App) */ = {
+			isa = PBXGroup;
+			children = (
+				D234F5702FA241C700940FEE /* ViewController.swift */,
+				D234F5712FA241C800940FEE /* Assets.xcassets */,
+				D234F56A2FA241C700940FEE /* Resources */,
+			);
+			path = "Shared (App)";
+			sourceTree = "<group>";
+		};
+		D234F56A2FA241C700940FEE /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D234F56B2FA241C700940FEE /* Main.html */,
+				D234F56D2FA241C700940FEE /* Icon.png */,
+				D234F56E2FA241C700940FEE /* Style.css */,
+				D234F56F2FA241C700940FEE /* Script.js */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		D234F5722FA241C800940FEE /* Shared (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				D234F5C42FA241C900940FEE /* Resources */,
+				D234F5732FA241C800940FEE /* SafariWebExtensionHandler.swift */,
+			);
+			path = "Shared (Extension)";
+			sourceTree = "<group>";
+		};
+		D234F5792FA241C800940FEE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D234F5782FA241C800940FEE /* Copito de Nieve.app */,
+				D234F58A2FA241C800940FEE /* Copito de Nieve.app */,
+				D234F5962FA241C800940FEE /* Copito de Nieve Extension.appex */,
+				D234F5A02FA241C800940FEE /* Copito de Nieve Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D234F57A2FA241C800940FEE /* iOS (App) */ = {
+			isa = PBXGroup;
+			children = (
+				D234F57B2FA241C800940FEE /* AppDelegate.swift */,
+				D234F57D2FA241C800940FEE /* SceneDelegate.swift */,
+				D234F57F2FA241C800940FEE /* LaunchScreen.storyboard */,
+				D234F5822FA241C800940FEE /* Main.storyboard */,
+				D234F5852FA241C800940FEE /* Info.plist */,
+			);
+			path = "iOS (App)";
+			sourceTree = "<group>";
+		};
+		D234F58B2FA241C800940FEE /* macOS (App) */ = {
+			isa = PBXGroup;
+			children = (
+				D234F58C2FA241C800940FEE /* AppDelegate.swift */,
+				D234F58E2FA241C800940FEE /* Main.storyboard */,
+				D234F5912FA241C800940FEE /* Info.plist */,
+			);
+			path = "macOS (App)";
+			sourceTree = "<group>";
+		};
+		D234F59A2FA241C800940FEE /* iOS (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				D234F59B2FA241C800940FEE /* Info.plist */,
+			);
+			path = "iOS (Extension)";
+			sourceTree = "<group>";
+		};
+		D234F5A42FA241C800940FEE /* macOS (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				D234F5A52FA241C800940FEE /* Info.plist */,
+			);
+			path = "macOS (Extension)";
+			sourceTree = "<group>";
+		};
+		D234F5C42FA241C900940FEE /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D234F5C52FA241C900940FEE /* icon.png */,
+				D234F5C62FA241C900940FEE /* popup.js */,
+				D234F5C72FA241C900940FEE /* content.css */,
+				D234F5C82FA241C900940FEE /* popup.html */,
+				D234F5CB2FA241C900940FEE /* manifest.json */,
+				D234F5CC2FA241C900940FEE /* popup.css */,
+				D234F5CD2FA241C900940FEE /* content.js */,
+				D234F5CE2FA241C900940FEE /* assets */,
+			);
+			name = Resources;
+			path = "Shared (Extension)";
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D234F5772FA241C800940FEE /* Copito de Nieve (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D234F5BA2FA241C800940FEE /* Build configuration list for PBXNativeTarget "Copito de Nieve (iOS)" */;
+			buildPhases = (
+				D234F5742FA241C800940FEE /* Sources */,
+				D234F5752FA241C800940FEE /* Frameworks */,
+				D234F5762FA241C800940FEE /* Resources */,
+				D234F5B92FA241C800940FEE /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D234F5992FA241C800940FEE /* PBXTargetDependency */,
+			);
+			name = "Copito de Nieve (iOS)";
+			packageProductDependencies = (
+			);
+			productName = "Copito de Nieve (iOS)";
+			productReference = D234F5782FA241C800940FEE /* Copito de Nieve.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D234F5892FA241C800940FEE /* Copito de Nieve (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D234F5C12FA241C800940FEE /* Build configuration list for PBXNativeTarget "Copito de Nieve (macOS)" */;
+			buildPhases = (
+				D234F5862FA241C800940FEE /* Sources */,
+				D234F5872FA241C800940FEE /* Frameworks */,
+				D234F5882FA241C800940FEE /* Resources */,
+				D234F5C02FA241C800940FEE /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D234F5A32FA241C800940FEE /* PBXTargetDependency */,
+			);
+			name = "Copito de Nieve (macOS)";
+			packageProductDependencies = (
+			);
+			productName = "Copito de Nieve (macOS)";
+			productReference = D234F58A2FA241C800940FEE /* Copito de Nieve.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D234F5952FA241C800940FEE /* Copito de Nieve Extension (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D234F5B62FA241C800940FEE /* Build configuration list for PBXNativeTarget "Copito de Nieve Extension (iOS)" */;
+			buildPhases = (
+				D234F5922FA241C800940FEE /* Sources */,
+				D234F5932FA241C800940FEE /* Frameworks */,
+				D234F5942FA241C800940FEE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Copito de Nieve Extension (iOS)";
+			packageProductDependencies = (
+			);
+			productName = "Copito de Nieve Extension (iOS)";
+			productReference = D234F5962FA241C800940FEE /* Copito de Nieve Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		D234F59F2FA241C800940FEE /* Copito de Nieve Extension (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D234F5BD2FA241C800940FEE /* Build configuration list for PBXNativeTarget "Copito de Nieve Extension (macOS)" */;
+			buildPhases = (
+				D234F59C2FA241C800940FEE /* Sources */,
+				D234F59D2FA241C800940FEE /* Frameworks */,
+				D234F59E2FA241C800940FEE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Copito de Nieve Extension (macOS)";
+			packageProductDependencies = (
+			);
+			productName = "Copito de Nieve Extension (macOS)";
+			productReference = D234F5A02FA241C800940FEE /* Copito de Nieve Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D234F5652FA241C600940FEE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2640;
+				LastUpgradeCheck = 2640;
+				TargetAttributes = {
+					D234F5772FA241C800940FEE = {
+						CreatedOnToolsVersion = 26.4.1;
+					};
+					D234F5892FA241C800940FEE = {
+						CreatedOnToolsVersion = 26.4.1;
+					};
+					D234F5952FA241C800940FEE = {
+						CreatedOnToolsVersion = 26.4.1;
+					};
+					D234F59F2FA241C800940FEE = {
+						CreatedOnToolsVersion = 26.4.1;
+					};
+				};
+			};
+			buildConfigurationList = D234F5682FA241C600940FEE /* Build configuration list for PBXProject "Copito de Nieve" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D234F5642FA241C600940FEE;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = D234F5792FA241C800940FEE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D234F5772FA241C800940FEE /* Copito de Nieve (iOS) */,
+				D234F5892FA241C800940FEE /* Copito de Nieve (macOS) */,
+				D234F5952FA241C800940FEE /* Copito de Nieve Extension (iOS) */,
+				D234F59F2FA241C800940FEE /* Copito de Nieve Extension (macOS) */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D234F5762FA241C800940FEE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D234F5A82FA241C800940FEE /* Icon.png in Resources */,
+				D234F5812FA241C800940FEE /* LaunchScreen.storyboard in Resources */,
+				D234F5A62FA241C800940FEE /* Main.html in Resources */,
+				D234F5AC2FA241C800940FEE /* Script.js in Resources */,
+				D234F5B02FA241C800940FEE /* Assets.xcassets in Resources */,
+				D234F5842FA241C800940FEE /* Main.storyboard in Resources */,
+				D2B440532FA24CB400293611 /* PrivacyInfo.xcprivacy in Resources */,
+				D234F5AA2FA241C800940FEE /* Style.css in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D234F5882FA241C800940FEE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D234F5A92FA241C800940FEE /* Icon.png in Resources */,
+				D2B440542FA24CB400293611 /* PrivacyInfo.xcprivacy in Resources */,
+				D234F5AB2FA241C800940FEE /* Style.css in Resources */,
+				D234F5902FA241C800940FEE /* Main.storyboard in Resources */,
+				D234F5AD2FA241C800940FEE /* Script.js in Resources */,
+				D234F5B12FA241C800940FEE /* Assets.xcassets in Resources */,
+				D234F5A72FA241C800940FEE /* Main.html in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D234F5942FA241C800940FEE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D234F5DF2FA241C900940FEE /* manifest.json in Resources */,
+				D234F5DB2FA241C900940FEE /* content.css in Resources */,
+				D234F5DC2FA241C900940FEE /* popup.html in Resources */,
+				D2B440552FA24CB400293611 /* PrivacyInfo.xcprivacy in Resources */,
+				D234F5E02FA241C900940FEE /* popup.css in Resources */,
+				D234F5E22FA241C900940FEE /* assets in Resources */,
+				D234F5D92FA241C900940FEE /* icon.png in Resources */,
+				D234F5E12FA241C900940FEE /* content.js in Resources */,
+				D234F5DA2FA241C900940FEE /* popup.js in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D234F59E2FA241C800940FEE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D234F5D52FA241C900940FEE /* manifest.json in Resources */,
+				D234F5D12FA241C900940FEE /* content.css in Resources */,
+				D234F5D22FA241C900940FEE /* popup.html in Resources */,
+				D2B440562FA24CB400293611 /* PrivacyInfo.xcprivacy in Resources */,
+				D234F5D62FA241C900940FEE /* popup.css in Resources */,
+				D234F5D82FA241C900940FEE /* assets in Resources */,
+				D234F5CF2FA241C900940FEE /* icon.png in Resources */,
+				D234F5D72FA241C900940FEE /* content.js in Resources */,
+				D234F5D02FA241C900940FEE /* popup.js in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D234F5742FA241C800940FEE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D234F5AE2FA241C800940FEE /* ViewController.swift in Sources */,
+				D234F57C2FA241C800940FEE /* AppDelegate.swift in Sources */,
+				D234F57E2FA241C800940FEE /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D234F5862FA241C800940FEE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D234F5AF2FA241C800940FEE /* ViewController.swift in Sources */,
+				D234F58D2FA241C800940FEE /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D234F5922FA241C800940FEE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D234F5B22FA241C800940FEE /* SafariWebExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D234F59C2FA241C800940FEE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D234F5B32FA241C800940FEE /* SafariWebExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D234F5992FA241C800940FEE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D234F5952FA241C800940FEE /* Copito de Nieve Extension (iOS) */;
+			targetProxy = D234F5982FA241C800940FEE /* PBXContainerItemProxy */;
+		};
+		D234F5A32FA241C800940FEE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D234F59F2FA241C800940FEE /* Copito de Nieve Extension (macOS) */;
+			targetProxy = D234F5A22FA241C800940FEE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D234F56B2FA241C700940FEE /* Main.html */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D234F56C2FA241C700940FEE /* Base */,
+			);
+			name = Main.html;
+			sourceTree = "<group>";
+		};
+		D234F57F2FA241C800940FEE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D234F5802FA241C800940FEE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		D234F5822FA241C800940FEE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D234F5832FA241C800940FEE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D234F58E2FA241C800940FEE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D234F58F2FA241C800940FEE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D234F5B42FA241C800940FEE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D234F5B52FA241C800940FEE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		D234F5B72FA241C800940FEE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DLUU7A88JM;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Copito de Nieve Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.pieterdekroon.copitodenieve.Extension;
+				PRODUCT_NAME = "Copito de Nieve Extension";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D234F5B82FA241C800940FEE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DLUU7A88JM;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Copito de Nieve Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.pieterdekroon.copitodenieve.Extension;
+				PRODUCT_NAME = "Copito de Nieve Extension";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D234F5BB2FA241C800940FEE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DLUU7A88JM;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Copito de Nieve";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.pieterdekroon.copitodenieve;
+				PRODUCT_NAME = "Copito de Nieve";
+				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D234F5BC2FA241C800940FEE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DLUU7A88JM;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Copito de Nieve";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.pieterdekroon.copitodenieve;
+				PRODUCT_NAME = "Copito de Nieve";
+				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D234F5BE2FA241C800940FEE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DLUU7A88JM;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_INCOMING_NETWORK_CONNECTIONS = NO;
+				ENABLE_OUTGOING_NETWORK_CONNECTIONS = NO;
+				ENABLE_RESOURCE_ACCESS_AUDIO_INPUT = NO;
+				ENABLE_RESOURCE_ACCESS_BLUETOOTH = NO;
+				ENABLE_RESOURCE_ACCESS_CALENDARS = NO;
+				ENABLE_RESOURCE_ACCESS_CAMERA = NO;
+				ENABLE_RESOURCE_ACCESS_CONTACTS = NO;
+				ENABLE_RESOURCE_ACCESS_LOCATION = NO;
+				ENABLE_RESOURCE_ACCESS_PRINTING = NO;
+				ENABLE_RESOURCE_ACCESS_USB = NO;
+				ENABLE_USER_SELECTED_FILES = readonly;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Copito de Nieve Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.pieterdekroon.copitodenieve.Extension;
+				PRODUCT_NAME = "Copito de Nieve Extension";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		D234F5BF2FA241C800940FEE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DLUU7A88JM;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_INCOMING_NETWORK_CONNECTIONS = NO;
+				ENABLE_OUTGOING_NETWORK_CONNECTIONS = NO;
+				ENABLE_RESOURCE_ACCESS_AUDIO_INPUT = NO;
+				ENABLE_RESOURCE_ACCESS_BLUETOOTH = NO;
+				ENABLE_RESOURCE_ACCESS_CALENDARS = NO;
+				ENABLE_RESOURCE_ACCESS_CAMERA = NO;
+				ENABLE_RESOURCE_ACCESS_CONTACTS = NO;
+				ENABLE_RESOURCE_ACCESS_LOCATION = NO;
+				ENABLE_RESOURCE_ACCESS_PRINTING = NO;
+				ENABLE_RESOURCE_ACCESS_USB = NO;
+				ENABLE_USER_SELECTED_FILES = readonly;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Copito de Nieve Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.pieterdekroon.copitodenieve.Extension;
+				PRODUCT_NAME = "Copito de Nieve Extension";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		D234F5C22FA241C800940FEE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DLUU7A88JM;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_OUTGOING_NETWORK_CONNECTIONS = YES;
+				ENABLE_USER_SELECTED_FILES = readonly;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Copito de Nieve";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.pieterdekroon.copitodenieve;
+				PRODUCT_NAME = "Copito de Nieve";
+				REGISTER_APP_GROUPS = YES;
+				SDKROOT = macosx;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		D234F5C32FA241C800940FEE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DLUU7A88JM;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_OUTGOING_NETWORK_CONNECTIONS = YES;
+				ENABLE_USER_SELECTED_FILES = readonly;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Copito de Nieve";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.pieterdekroon.copitodenieve;
+				PRODUCT_NAME = "Copito de Nieve";
+				REGISTER_APP_GROUPS = YES;
+				SDKROOT = macosx;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D234F5682FA241C600940FEE /* Build configuration list for PBXProject "Copito de Nieve" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D234F5B42FA241C800940FEE /* Debug */,
+				D234F5B52FA241C800940FEE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D234F5B62FA241C800940FEE /* Build configuration list for PBXNativeTarget "Copito de Nieve Extension (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D234F5B72FA241C800940FEE /* Debug */,
+				D234F5B82FA241C800940FEE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D234F5BA2FA241C800940FEE /* Build configuration list for PBXNativeTarget "Copito de Nieve (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D234F5BB2FA241C800940FEE /* Debug */,
+				D234F5BC2FA241C800940FEE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D234F5BD2FA241C800940FEE /* Build configuration list for PBXNativeTarget "Copito de Nieve Extension (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D234F5BE2FA241C800940FEE /* Debug */,
+				D234F5BF2FA241C800940FEE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D234F5C12FA241C800940FEE /* Build configuration list for PBXNativeTarget "Copito de Nieve (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D234F5C22FA241C800940FEE /* Debug */,
+				D234F5C32FA241C800940FEE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D234F5652FA241C600940FEE /* Project object */;
+}
