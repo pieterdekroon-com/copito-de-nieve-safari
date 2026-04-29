@@ -2,6 +2,8 @@
 
 A quiet tribute to the only albino gorilla who ever lived. For Safari on iOS and macOS.
 
+![Copito de Nieve](screenshot.png)
+
 Copito de Nieve — *"Snowflake"* — was born in the Equatorial Guinean jungle in 1964 and lived at the Barcelona Zoo from 1966 until his death in 2003. He was the only confirmed albino gorilla in recorded history. For nearly four decades he was Barcelona's most beloved resident, gently watching millions of visitors pass by his enclosure. When he died of skin cancer, the city mourned him like a family member.
 
 This extension is a small, quiet homage to him.
